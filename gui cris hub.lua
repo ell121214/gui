@@ -23,7 +23,7 @@ local RayfieldLibrary = {
 	Theme = {
 		Default = {
 			TextFont = "Default", -- Default will use the various font faces used across Rayfield
-			TextColor = Color3.fromRGB(0, 3, 1),
+			TextColor = Color3.fromRGB(50, 50, 50),
 
 			Background = Color3.fromRGB(25, 25, 25),
 			Topbar = Color3.fromRGB(34, 34, 34),
