@@ -23,7 +23,7 @@ local RayfieldLibrary = {
 	Theme = {
 		Default = {
 			TextFont = "Default", -- Default will use the various font faces used across Rayfield
-			TextColor = Color3.fromRGB(4, 8, 204),
+			TextColor = Color3.fromRGB(254, 254, 255),
 
 			Background = Color3.fromRGB(53, 250, 237),
 			Topbar = Color3.fromRGB(7, 144, 240),
@@ -32,7 +32,7 @@ local RayfieldLibrary = {
 			NotificationBackground = Color3.fromRGB(20, 20, 20),
 			NotificationActionsBackground = Color3.fromRGB(230, 230, 230),
 
-			TabBackground = Color3.fromRGB(1, 2, 1),
+			TabBackground = Color3.fromRGB(1, 0, 105),
 			TabStroke = Color3.fromRGB(1, 0, 29),
 			TabBackgroundSelected = Color3.fromRGB(210, 210, 210),
 			TabTextColor = Color3.fromRGB(4, 8, 121),
@@ -62,7 +62,7 @@ local RayfieldLibrary = {
 		},
 		Light = {
 			TextFont = "Gotham", -- Default will use the various font faces used across Rayfield
-			TextColor = Color3.fromRGB(4, 8, 204), -- i need to make all text 240, 240, 240 and base gray on transparency not color to do this
+			TextColor = Color3.fromRGB(254, 254, 255), -- i need to make all text 240, 240, 240 and base gray on transparency not color to do this
 
 			Background = Color3.fromRGB(53, 250, 237),
 			Topbar = Color3.fromRGB(7, 144, 240),
@@ -71,9 +71,9 @@ local RayfieldLibrary = {
 			NotificationBackground = Color3.fromRGB(20, 20, 20),
 			NotificationActionsBackground = Color3.fromRGB(230, 230, 230),
 
-			TabBackground = Color3.fromRGB(1, 2, 1),
+			TabBackground = Color3.fromRGB(1, 0, 105),
 			TabStroke = Color3.fromRGB(1, 0, 29),
-			TabBackgroundSelected = Color3.fromRGB(0, 142, 208),
+			TabBackgroundSelected = Color3.fromRGB(0, 1, 110),
 			TabTextColor = Color3.fromRGB(4, 8, 121),
 			SelectedTabTextColor = Color3.fromRGB(4, 8, 121),
 
