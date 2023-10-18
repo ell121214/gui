@@ -38,8 +38,8 @@ local RayfieldLibrary = {
 			TabTextColor = Color3.fromRGB(255, 255, 253),
 			SelectedTabTextColor = Color3.fromRGB(255, 255, 253),
 
-			ElementBackground = Color3.fromRGB(4, 179, 249),
-			ElementBackgroundHover = Color3.fromRGB(3, 13, 44),
+			ElementBackground = Color3.fromRGB(4, 23, 176),
+			ElementBackgroundHover = Color3.fromRGB(3, 13, 101),
 			SecondaryElementBackground = Color3.fromRGB(25, 25, 25), -- For labels and paragraphs
 			ElementStroke = Color3.fromRGB(12, 1, 159),
 			SecondaryElementStroke = Color3.fromRGB(40, 40, 40), -- For labels and paragraphs
@@ -57,8 +57,8 @@ local RayfieldLibrary = {
 			ToggleDisabledOuterStroke = Color3.fromRGB(0, 100, 204),
 
 			InputBackground = Color3.fromRGB(163, 188, 255),
-			InputStroke = Color3.fromRGB(65, 65, 65),
-			PlaceholderColor = Color3.fromRGB(178, 178, 178)
+			InputStroke = Color3.fromRGB(0, 2, 130),
+			PlaceholderColor = Color3.fromRGB(1, 9, 92)
 		},
 		Light = {
 			TextFont = "Gotham", -- Default will use the various font faces used across Rayfield
