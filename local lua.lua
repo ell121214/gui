@@ -6350,7 +6350,7 @@ function library:CreateWindow(options, ...)
 				randomColorButton.BackgroundTransparency = 1
 				randomColorButton.Size = UDim2.fromScale(1, 1)
 				randomColorButton.ZIndex = 5
-				randomColorButton.Image = ""
+				randomColorButton.Image = "rbxassetid://15102114072"
 				rainbow.Name = "rainbow"
 				rainbow.Parent = colorPickerHolderInner
 				rainbow.Active = true
@@ -6361,7 +6361,7 @@ function library:CreateWindow(options, ...)
 				rainbow.Position = UDim2.fromOffset(158 + 18 + 4, 223)
 				rainbow.Selectable = true
 				rainbow.Size = UDim2.fromOffset(18, 18)
-				rainbow.Image = ""
+				rainbow.Image = "rbxassetid://15102114072"
 				rainbow.ImageColor3 = library.colors.bottomGradient
 				colored[1 + #colored] = {rainbow, "ImageColor3", "bottomGradient"}
 				rainbowInner.Name = "rainbowInner"
@@ -6375,7 +6375,7 @@ function library:CreateWindow(options, ...)
 				rainbowInner.Position = UDim2.fromScale(0.5, 0.5)
 				rainbowInner.Selectable = true
 				rainbowInner.Size = UDim2.new(1, -4, 1, -4)
-				rainbowInner.Image = ""
+				rainbowInner.Image = "rbxassetid://15102114072"
 				rainbowInner.ImageColor3 = library.colors.bottomGradient
 				colored[1 + #colored] = {rainbowInner, "ImageColor3", "bottomGradient"}
 				rainbowButton.Name = "rainbowButton"
@@ -6384,7 +6384,7 @@ function library:CreateWindow(options, ...)
 				rainbowButton.BackgroundTransparency = 1
 				rainbowButton.Size = UDim2.fromScale(1, 1)
 				rainbowButton.ZIndex = 5
-				rainbowButton.Image = ""
+				rainbowButton.Image = "rbxassetid://15102114072"
 				local indexwith = (designers and "rainbows") or "rainbowsg"
 				local function setrainbow(t, rainbowColorMod)
 					if nil == rainbowColorMod and t ~= nil then
@@ -6719,9 +6719,9 @@ function library:CreateWindow(options, ...)
 		}
 		local daaata = {{"AddTextbox", "__Designer.Textbox.ImageAssetID", backgroundsection, {
 			Name = "Image Asset ID",
-			Placeholder = "",
+			Placeholder = "rbxassetid://15102114072",
 			Flag = "__Designer.Background.ImageAssetID",
-			Value = "",
+			Value = "rbxassetid://15102114072",
 			Callback = updatecolorsnotween
 		}}, {"AddColorpicker", "__Designer.Colorpicker.ImageColor", backgroundsection, {
 			Name = "Image Color",
