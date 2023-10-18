@@ -26,7 +26,7 @@ local RayfieldLibrary = {
 			TextColor = Color3.fromRGB(240, 240, 240),
 
 			Background = Color3.fromRGB(53, 250, 237),
-			Topbar = Color3.fromRGB(34, 34, 34),
+			Topbar = Color3.fromRGB(7, 144, 240),
 			Shadow = Color3.fromRGB(171, 229, 249),
 
 			NotificationBackground = Color3.fromRGB(20, 20, 20),
@@ -65,7 +65,7 @@ local RayfieldLibrary = {
 			TextColor = Color3.fromRGB(50, 50, 50), -- i need to make all text 240, 240, 240 and base gray on transparency not color to do this
 
 			Background = Color3.fromRGB(53, 250, 237),
-			Topbar = Color3.fromRGB(217, 217, 217),
+			Topbar = Color3.fromRGB(7, 144, 240),
 			Shadow = Color3.fromRGB(171, 229, 249),
 
 			NotificationBackground = Color3.fromRGB(20, 20, 20),
