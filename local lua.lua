@@ -18,7 +18,7 @@ local library = {
 		main = Color3.fromRGB(80, 245, 245),
 		background = Color3.fromRGB(40, 40, 40),
 		outerBorder = Color3.fromRGB(15, 15, 15),
-		innerBorder = Color3.fromRGB(2, 9, 162),
+		innerBorder = Color3.fromRGB(2, 9, 255),
 		topGradient = Color3.fromRGB(35, 35, 35),
 		bottomGradient = Color3.fromRGB(29, 29, 29),
 		sectionBackground = Color3.fromRGB(35, 34, 34),
@@ -6350,7 +6350,7 @@ function library:CreateWindow(options, ...)
 				randomColorButton.BackgroundTransparency = 1
 				randomColorButton.Size = UDim2.fromScale(1, 1)
 				randomColorButton.ZIndex = 5
-				randomColorButton.Image = "rbxassetid://12855499169"
+				randomColorButton.Image = ""
 				rainbow.Name = "rainbow"
 				rainbow.Parent = colorPickerHolderInner
 				rainbow.Active = true
@@ -6361,7 +6361,7 @@ function library:CreateWindow(options, ...)
 				rainbow.Position = UDim2.fromOffset(158 + 18 + 4, 223)
 				rainbow.Selectable = true
 				rainbow.Size = UDim2.fromOffset(18, 18)
-				rainbow.Image = "rbxassetid://12855499169"
+				rainbow.Image = ""
 				rainbow.ImageColor3 = library.colors.bottomGradient
 				colored[1 + #colored] = {rainbow, "ImageColor3", "bottomGradient"}
 				rainbowInner.Name = "rainbowInner"
@@ -6375,7 +6375,7 @@ function library:CreateWindow(options, ...)
 				rainbowInner.Position = UDim2.fromScale(0.5, 0.5)
 				rainbowInner.Selectable = true
 				rainbowInner.Size = UDim2.new(1, -4, 1, -4)
-				rainbowInner.Image = "rbxassetid://12855499169"
+				rainbowInner.Image = ""
 				rainbowInner.ImageColor3 = library.colors.bottomGradient
 				colored[1 + #colored] = {rainbowInner, "ImageColor3", "bottomGradient"}
 				rainbowButton.Name = "rainbowButton"
@@ -6384,7 +6384,7 @@ function library:CreateWindow(options, ...)
 				rainbowButton.BackgroundTransparency = 1
 				rainbowButton.Size = UDim2.fromScale(1, 1)
 				rainbowButton.ZIndex = 5
-				rainbowButton.Image = "rbxassetid://12855499169"
+				rainbowButton.Image = ""
 				local indexwith = (designers and "rainbows") or "rainbowsg"
 				local function setrainbow(t, rainbowColorMod)
 					if nil == rainbowColorMod and t ~= nil then
@@ -6719,9 +6719,9 @@ function library:CreateWindow(options, ...)
 		}
 		local daaata = {{"AddTextbox", "__Designer.Textbox.ImageAssetID", backgroundsection, {
 			Name = "Image Asset ID",
-			Placeholder = "rbxassetid://12855499169",
+			Placeholder = "",
 			Flag = "__Designer.Background.ImageAssetID",
-			Value = "rbxassetid://12855499169",
+			Value = "",
 			Callback = updatecolorsnotween
 		}}, {"AddColorpicker", "__Designer.Colorpicker.ImageColor", backgroundsection, {
 			Name = "Image Color",
