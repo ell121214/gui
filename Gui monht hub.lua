@@ -35,8 +35,8 @@ local RayfieldLibrary = {
 			TabBackground = Color3.fromRGB(1, 2, 1),
 			TabStroke = Color3.fromRGB(1, 0, 29),
 			TabBackgroundSelected = Color3.fromRGB(210, 210, 210),
-			TabTextColor = Color3.fromRGB(240, 240, 240),
-			SelectedTabTextColor = Color3.fromRGB(50, 50, 50),
+			TabTextColor = Color3.fromRGB(4, 8, 121),
+			SelectedTabTextColor = Color3.fromRGB(4, 8, 121),
 
 			ElementBackground = Color3.fromRGB(1, 246, 254),
 			ElementBackgroundHover = Color3.fromRGB(40, 40, 40),
@@ -74,8 +74,8 @@ local RayfieldLibrary = {
 			TabBackground = Color3.fromRGB(1, 2, 1),
 			TabStroke = Color3.fromRGB(1, 0, 29),
 			TabBackgroundSelected = Color3.fromRGB(0, 142, 208),
-			TabTextColor = Color3.fromRGB(240, 240, 240),
-			SelectedTabTextColor = Color3.fromRGB(50, 50, 50),
+			TabTextColor = Color3.fromRGB(4, 8, 121),
+			SelectedTabTextColor = Color3.fromRGB(4, 8, 121),
 
 			ElementBackground = Color3.fromRGB(1, 246, 254),
 			ElementBackgroundHover = Color3.fromRGB(230, 230, 230),
