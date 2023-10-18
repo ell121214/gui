@@ -917,11 +917,11 @@ function RayfieldLibrary:CreateWindow(Settings)
 
 	for _, TabButton in ipairs(TabList:GetChildren()) do
 		if TabButton.ClassName == "Frame" and TabButton.Name ~= "Placeholder" then
-			TabButton.BackgroundTransparency = 0.5
-			TabButton.Title.TextTransparency = 0.5
-			TabButton.Shadow.ImageTransparency = 0.5
-			TabButton.Image.ImageTransparency = 0.5
-			TabButton.UIStroke.Transparency = 0.5
+			TabButton.BackgroundTransparency = 1
+			TabButton.Title.TextTransparency = 1
+			TabButton.Shadow.ImageTransparency = 1
+			TabButton.Image.ImageTransparency = 1
+			TabButton.UIStroke.Transparency = 1
 		end
 	end
 
@@ -1182,11 +1182,11 @@ function RayfieldLibrary:CreateWindow(Settings)
 			TabButton.Size = UDim2.new(0, TabButton.Title.TextBounds.X + 46, 0, 30)
 		end
 
-		TabButton.BackgroundTransparency = 0.5
-		TabButton.Title.TextTransparency = 0.5
-		TabButton.Shadow.ImageTransparency = 0.5
-		TabButton.Image.ImageTransparency = 0.5
-		TabButton.UIStroke.Transparency = 0.5
+		TabButton.BackgroundTransparency = 1
+		TabButton.Title.TextTransparency = 1
+		TabButton.Shadow.ImageTransparency = 1
+		TabButton.Image.ImageTransparency = 1
+		TabButton.UIStroke.Transparency = 1
 
 		TabButton.Visible = true
 
