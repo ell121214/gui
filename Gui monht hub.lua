@@ -40,9 +40,9 @@ local RayfieldLibrary = {
 
 			ElementBackground = Color3.fromRGB(4, 23, 176),
 			ElementBackgroundHover = Color3.fromRGB(3, 13, 101),
-			SecondaryElementBackground = Color3.fromRGB(25, 25, 25), -- For labels and paragraphs
+			SecondaryElementBackground = Color3.fromRGB(25, 25, 137), -- For labels and paragraphs
 			ElementStroke = Color3.fromRGB(12, 1, 159),
-			SecondaryElementStroke = Color3.fromRGB(40, 40, 40), -- For labels and paragraphs
+			SecondaryElementStroke = Color3.fromRGB(25, 25, 75), -- For labels and paragraphs
 
 			SliderBackground = Color3.fromRGB(43, 105, 159),
 			SliderProgress = Color3.fromRGB(43, 105, 159),
