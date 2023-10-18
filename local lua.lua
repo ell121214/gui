@@ -28,10 +28,10 @@ local library = {
 		elementBorder = Color3.fromRGB(20, 20, 20),
 		selectedOption = Color3.fromRGB(55, 55, 55),
 		unselectedOption = Color3.fromRGB(40, 40, 40),
-		hoveredOptionTop = Color3.fromRGB(65, 65, 65),
-		unhoveredOptionTop = Color3.fromRGB(50, 50, 50),
-		hoveredOptionBottom = Color3.fromRGB(45, 45, 45),
-		unhoveredOptionBottom = Color3.fromRGB(35, 35, 35),
+		hoveredOptionTop = Color3.fromRGB(1, 140, 248),
+		unhoveredOptionTop = Color3.fromRGB(5, 17, 249),
+		hoveredOptionBottom = Color3.fromRGB(45, 178, 252),
+		unhoveredOptionBottom = Color3.fromRGB(8, 0, 0),
 		tabText = Color3.fromRGB(185, 185, 185)
 	},
 	gui_parent = (function()
