@@ -50,11 +50,11 @@ local RayfieldLibrary = {
 
 			ToggleBackground = Color3.fromRGB(30, 30, 30),
 			ToggleEnabled = Color3.fromRGB(0, 146, 214),
-			ToggleDisabled = Color3.fromRGB(100, 100, 100),
-			ToggleEnabledStroke = Color3.fromRGB(0, 170, 255),
-			ToggleDisabledStroke = Color3.fromRGB(125, 125, 125),
-			ToggleEnabledOuterStroke = Color3.fromRGB(100, 100, 100),
-			ToggleDisabledOuterStroke = Color3.fromRGB(65, 65, 65),
+			ToggleDisabled = Color3.fromRGB(255, 255, 246),
+			ToggleEnabledStroke = Color3.fromRGB(1, 20, 255),
+			ToggleDisabledStroke = Color3.fromRGB(1, 0, 0),
+			ToggleEnabledOuterStroke = Color3.fromRGB(0, 100, 204),
+			ToggleDisabledOuterStroke = Color3.fromRGB(0, 100, 204),
 
 			InputBackground = Color3.fromRGB(163, 188, 255),
 			InputStroke = Color3.fromRGB(65, 65, 65),
@@ -917,7 +917,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 
 	for _, TabButton in ipairs(TabList:GetChildren()) do
 		if TabButton.ClassName == "Frame" and TabButton.Name ~= "Placeholder" then
-			TabButton.BackgroundTransparency = 0.5
+			TabButton.BackgroundTransparency = 1
 			TabButton.Title.TextTransparency = 1
 			TabButton.Shadow.ImageTransparency = 1
 			TabButton.Image.ImageTransparency = 1
@@ -1182,7 +1182,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 			TabButton.Size = UDim2.new(0, TabButton.Title.TextBounds.X + 46, 0, 30)
 		end
 
-		TabButton.BackgroundTransparency = 0.5
+		TabButton.BackgroundTransparency = 1
 		TabButton.Title.TextTransparency = 1
 		TabButton.Shadow.ImageTransparency = 1
 		TabButton.Image.ImageTransparency = 1
@@ -1639,7 +1639,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 			Input.Visible = true
 			Input.Parent = TabPage
 
-			Input.BackgroundTransparency = 0.5
+			Input.BackgroundTransparency = 1
 			Input.UIStroke.Transparency = 1
 			Input.Title.TextTransparency = 1
 
